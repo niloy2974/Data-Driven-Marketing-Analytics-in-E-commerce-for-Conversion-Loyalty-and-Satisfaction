@@ -14,12 +14,14 @@ The project uses a synthetic e-commerce dataset containing customer demographics
 2. RegistrationDate: Date when the customer registered (date)
 3. FavoriteCategory: Their favourite category (7 Categories)
 4. SecondFavoriteCategory: Their second favourite category (7 Categories)	Qualitative-Nominal
+
 **Customer Demography**
 1. Age: Age of the customer
 2. Gender: Their gender (Categories: Male, Female)
 3. IncomeLevel: Income level (Low, Medium, High, Very High)
 4. Country: Country of residence (7 Categories)
 5. City: City of residence (7 Categories)
+
 **Customer Interaction**
 1. CustomerLifetimeValue: Estimated value based on the expected total revenue over their entire lifetime (Rating)
 2. EmailEngagementRate: Percentage measured based on interaction with customer's email campaigns (Percent)
@@ -31,6 +33,7 @@ The project uses a synthetic e-commerce dataset containing customer demographics
 8. CustomerServiceInteractions: Count of interactions with support (Counts)
 9. AverageSatisfactionScore: Their score based on contentment with the product and service (Rating out of 10)
 10. PremiumMember: Whether they are a premium member (Yes, No)
+
 **Customer Purchasing Behaviour**
 1. TotalPurchases: Total purchases made by the customer (Counts)
 2. AverageOrderValue: Average value of orders by the customer (£)
