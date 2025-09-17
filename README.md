@@ -9,7 +9,34 @@ The results highlight the importance of integrated marketing strategies, reveal 
 # Data Source
 The project uses a synthetic e-commerce dataset containing customer demographics, behaviour, and marketing interactions. A detailed data dictionary provides context for all variables, while feature selection identifies key metrics for analysis, including total spending as the target and conversion rates, engagement, and membership type as predictors.
 
-![Data Dictionary]()
+**Customer Details**
+1. CustomerID: Unique identifier for each customer
+2. RegistrationDate: Date when the customer registered (date)
+3. FavoriteCategory: Their favourite category (7 Categories)
+4. SecondFavoriteCategory: Their second favourite category (7 Categories)	Qualitative-Nominal
+**Customer Demography**
+1. Age: Age of the customer
+2. Gender: Their gender (Categories: Male, Female)
+3. IncomeLevel: Income level (Low, Medium, High, Very High)
+4. Country: Country of residence (7 Categories)
+5. City: City of residence (7 Categories)
+**Customer Interaction**
+1. CustomerLifetimeValue: Estimated value based on the expected total revenue over their entire lifetime (Rating)
+2. EmailEngagementRate: Percentage measured based on interaction with customer's email campaigns (Percent)
+3. SocialMediaEngagementRate: Percentage measured based on interaction with customer's social media campaigns (Percent)
+4. EmailConversionRate: Percentage of email interactions resulting in desired action like purchase and sign-up (Percent)
+5. SocialMediaConversionRate: Percentage of social media interactions resulting in desired action like purchase and sign-up (Percent)
+6. SearchEngineConversionRate: Percentage of search interactions resulting in desired action like purchase and sign-up (Percent)
+7. MobileAppUsage: The frequency of time user spends interacting with the mobile app (Never, Low, Medium, High)
+8. CustomerServiceInteractions: Count of interactions with support (Counts)
+9. AverageSatisfactionScore: Their score based on contentment with the product and service (Rating out of 10)
+10. PremiumMember: Whether they are a premium member (Yes, No)
+**Customer Purchasing Behaviour**
+1. TotalPurchases: Total purchases made by the customer (Counts)
+2. AverageOrderValue: Average value of orders by the customer (£)
+3. TotalSpending: Total value of orders placed by the customer (f)
+4. RepeatCustomer: Whether they are a repeat customer (Yes, No)
+5. HasReturnedltems: Whether they have returned items (Yes, No)
 # Data Preprocessing
 ## Descriptive Statistics
 ![Descriptive Statistics]()
