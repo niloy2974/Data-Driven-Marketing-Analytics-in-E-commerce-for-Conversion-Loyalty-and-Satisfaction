@@ -42,6 +42,7 @@ The bar plots represent the frequency distribution of the categorical variables,
 For a business to run effectively, there must be a balanced relationship between investment and revenue. In this report, TotalSpending serves as a direct indicator of revenue and reflects customer lifetime value. On the other hand, the conversion rates are key performance indicators that measure the effectiveness of marketing efforts in turning engagement into actual purchases. While it is expected that conversion rates have a positive impact on spending, different marketing channels may vary in their level of influence. Therefore, the following hypothesis statements are formed to examine whether conversion rates are associated with increased spending.
 
 **H₀: None of the conversion rates significantly explain the variation in spending behaviour.**
+
 **H₁: At least one of the conversion rates significantly explains the variation in spending behaviour.**
 
 To find out whether we can reject the null hypothesis (H0) or not, we will run the following econometric model on a multivariate linear regression analysis:
@@ -51,6 +52,7 @@ To find out whether we can reject the null hypothesis (H0) or not, we will run t
 Comparing the conversion rates alone may not produce a strong model, as different demographic segments can respond differently to the same marketing channel. To understand whether the relationship identified in (1) varies across customer groups, PremiumMember is included to interact with each. Businesses often treat customers differently based on loyalty programme tiers. This makes membership type an ideal segmentation to test the model, as loyalty programmes are closely aligned with marketing strategies. Therefore, the following hypothesis statements are formed to examine whether membership level influences the effect of conversion rates on spending.
 
 **H₀: Membership level does not influence the relationship between conversion rates and spending behaviour.**
+
 **H₁: Membership level influences the relationship between at least one conversion rate and spending behaviour.**
 
 To find out whether we can reject the null hypothesis (H0) or not, we will run the following second econometric model, on a multivariate linear regression analysis:
