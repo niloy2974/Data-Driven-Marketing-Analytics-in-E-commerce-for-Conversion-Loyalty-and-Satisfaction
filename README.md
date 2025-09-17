@@ -1,2 +1,8 @@
 # Data-Driven-Marketing-Analytics-in-E-commerce-for-Conversion-Loyalty-and-Satisfaction
 This project applies marketing analytics to a synthetic e-commerce dataset to evaluate channel effectiveness, analyse premium member behaviour, and identify drivers of satisfaction. Using regression and classification models, it provides insights to optimise conversions, loyalty programmes, and engagement.
+# Overview
+This project explores how marketing analytics can be applied in the e-commerce industry to improve customer engagement, conversion, and satisfaction. Using a synthetic dataset containing customer demographics, purchasing behaviour, and marketing interactions, the analysis focuses on three objectives: evaluating the performance of marketing channels, examining the behaviour of premium members, and identifying key factors driving customer satisfaction.
+
+Descriptive statistics and visualisations were used to understand data distributions and highlight outliers. Multivariate regression models assessed the impact of different marketing channels on spending, while interaction models tested the role of membership type. A regression tree classification was then applied to uncover factors influencing satisfaction levels.
+
+The results highlight the importance of integrated marketing strategies, reveal social media as the most impactful channel for revenue, and provide evidence that loyalty programmes require refinement to better engage premium members. These insights offer practical recommendations for optimising conversions, enhancing customer retention, and improving overall business performance.
