@@ -7,7 +7,7 @@ Descriptive statistics and visualisations were used to understand data distribut
 
 The results highlight the importance of integrated marketing strategies, reveal social media as the most impactful channel for revenue, and provide evidence that loyalty programmes require refinement to better engage premium members. These insights offer practical recommendations for optimising conversions, enhancing customer retention, and improving overall business performance.
 # Data Source
-The project uses a synthetic e-commerce dataset containing customer demographics, behaviour, and marketing interactions. A detailed data dictionary provides context for all variables, while feature selection identifies key metrics for analysis, including total spending as the target and conversion rates, engagement, and membership type as predictors.
+The project uses a synthetic e-commerce dataset [(Kaggle Dataset Link)](https://www.kaggle.com/datasets/noir1112/e-commerce-customer-engagement?resource=download) containing customer demographics, behaviour, and marketing interactions. A detailed data dictionary provides context for all variables, while feature selection identifies key metrics for analysis, including total spending as the target and conversion rates, engagement, and membership type as predictors.
 
 **Customer Details**
 1. CustomerID: Unique identifier for each customer
